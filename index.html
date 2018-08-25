@@ -2,52 +2,93 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me!</title>
   </head>
   <body>
-    <h1>Hello my name is Jentry!</h1>
-    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/12377577_10153963916236147_5389037873029775220_o.jpg?_nc_cat=0&oh=b44ef3c00c3ba303a21deac0695190d7&oe=5BFB9506" alt="Photo of myself">
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="img-header">
+              <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/12377577_10153963916236147_5389037873029775220_o.jpg?_nc_cat=0&oh=b44ef3c00c3ba303a21deac0695190d7&oe=5BFB9506" class="img-responsive" alt="Photo of myself">
+            </div>
+            <h1>Jentry J<br><small>Hello there!</small></br></h1>
+          </div>
+        </div>
+      </div>
+    </div>
 <!-- ABOUT ME!-->
-        <h2>About me</h2>
-        <p><br>Hi there! As you can guess my name is Jentry. I created this page as a basic introduction to me, and wanted to offer some context to who I am. In the last year I have been working to build my programming and code pratice taking classes both online and in person.</br>
-          <strong><br>Below you you can see more about where I have been, who I am, and what I have been working on!</br></strong>
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>About me</h2>
+          <p><br>Hi there! As you can guess my name is Jentry. I created this page as a basic introduction to me, and wanted to offer some context to who I am. In the last year I have been working to build my programming and code pratice taking classes both online and in person.</br>
+            <strong><br>Below you you can see more about where I have been, who I am, and what I have been working on!</br></strong>
+          </p>
+        </div>
+      </div>
+    </div>
 <!--Projects-->
-    <h2>Projects</h2>
-    <p>I have been working on several smal projects to get thnings started, though this list will be updated as time goes on</p>
-    <ul>
-      <li><a href="https://github.com/Nombru/hello-world">Hello world</a></li>
-      <li><a href="https://github.com/Nombru/goodbye">Goodbye</a></li>
-      <li><a href="https://github.com/Nombru/my-first-webpage">My First webpage</a></li>
-      <li><a href="https://github.com/Nombru/my-second-webpage">My Second Webpage</a></li>
-      <li><a href="https://github.com/Nombru/band-site">Band Site</a></li>
-      <li><a href="https://github.com/Nombru/snake">Snake. <em>Not the game, yet...</em></a></li>
-      <li><a href="https://github.com/Nombru/animal-shelter">Animal Shelter</a></li>
-      <li><a href="https://github.com/Nombru/bootstrap">First Bootstep project</a></li>
-      <li><a href="https://github.com/Nombru/wiki">Recreating Wikipedia home page</a></li>
-    </ul>
-<!--Background and Education -->
-    <p>Background and Education
-      <ul>
-        <li>Started at Apple Inc. in 2012 as a technitian behind the Genius Bar</li>
-        <li>Joined Airbnb and helped open their Portland offices</li>
-        <li>Helped with operations and business operations at small tech start up, Operator</li>
-        <li>Worked with online bank, Simple.</li>
-        <li>Now working with Squarespace as a customer advisor</li>
-        <li> <a href="https://teamtreehouse.com/jentryj">See my programming education and portfolio with Team Treehouse</a></li>
-        <li>Now also taking clases with Edpicodus.</li>
-      </ul>
-    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading"><h2>Projects</h2></div>
+            <div class="panel-body">
+              <p>I have been working on several smal projects to get thnings started, though this list will be updated as time goes on</p>
+              <ul>
+                <li><a href="https://github.com/Nombru/hello-world">Hello world</a></li>
+                <li><a href="https://github.com/Nombru/goodbye">Goodbye</a></li>
+                <li><a href="https://github.com/Nombru/my-first-webpage">My First webpage</a></li>
+                <li><a href="https://github.com/Nombru/my-second-webpage">My Second Webpage</a></li>
+                <li><a href="https://github.com/Nombru/band-site">Band Site</a></li>
+                <li><a href="https://github.com/Nombru/snake">Snake. <em>Not the game, yet...</em></a></li>
+                <li><a href="https://github.com/Nombru/animal-shelter">Animal Shelter</a></li>
+                <li><a href="https://github.com/Nombru/bootstrap">First Bootstep project</a></li>
+                <li><a href="https://github.com/Nombru/wiki">Recreating Wikipedia home page</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  <!--Background and Education -->
+        <div class="col-md-4">
+          <div class="panel panel-success">
+            <div class="panel-heading"><h2>Background and Education<br><small>More on my history</small></br></h2></div>
+            <div class="panel-body">
+              <p>
+                <ul>
+                  <li>Started at Apple Inc. in 2012 as a technitian behind the Genius Bar</li>
+                  <li>Joined Airbnb and helped open their Portland offices</li>
+                  <li>Helped with operations and business operations at small tech start up, Operator</li>
+                  <li>Worked with online bank, Simple.</li>
+                  <li>Now working with Squarespace as a customer advisor</li>
+                  <li> <a href="https://teamtreehouse.com/jentryj">See my programming education and portfolio with Team Treehouse</a></li>
+                  <li>Now also taking clases with Edpicodus.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
 <!--Hobbies-->
-    <p> Hobbies
-      <ul>
-      <li> <a href="https://vsco.co/nombru">Photagraphy</a></li>
-      <li>Hiking</li>
-      <li>Cooking and baking</li>
-      <li>building skill and practice with programming</li>
-    </ul>
-  </p>
+        <div class="col-md-4">
+          <div class="panel panel-info">
+            <div class="panel-heading"><h2>Hobbies</h2></div>
+            <div class="panel-body">
+              <p>
+                <ol>
+                  <li> <a href="https://vsco.co/nombru">Photagraphy</a></li>
+                  <li>Hiking</li>
+                  <li>Cooking and baking</li>
+                  <li>building skill and practice with programming</li>
+                </ol>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
