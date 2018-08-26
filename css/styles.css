@@ -1,3 +1,70 @@
+.header {
+  background-color: #6B7552;
+  background-size: cover;
+}
+img {
+  width: 500px;
+  height: auto;
+  border: solid 25px #FFFFFF;
+  margin-left: 583px;
+  margin-right: auto;
+  padding: 50px;
+}
+.img-header {
+  opacity: 1;
+  display: block;
+  margin: auto;
+  border: solid 4px #AD5D4E;
+  padding: 2px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.txt-header {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.header:hover .image {
+  opacity: 0.3;
+}
+.header:hover .txt-header {
+  opacity: 1;
+}
 h1 {
-
+  color: #3F2D20;
+}
+.txt-header {
+  background-color: #8B755D;
+  border-radius: 15px;
+  width: auto;
+  padding: 30px;
+  margin: 0px;
+}
+ul {
+  width: 300px;
+  border: 5px dotted #826754;
+  padding: 25px;
+  margin: 14px;
+}
+.about-me {
+  background-image: url('../img/rocks.jpg');
+  background-size: cover;
+}
+.txt-about-me {
+  background-color: #999A7E;
+  border-radius: 15px;
+  width: auto;
+  padding: 25px;
+  margin: 25px;
+}
+.info {
+  background-color: #6F706B;
+  border-radius: 15px;
+  width: auto;
+  padding: 25px;
+  margin: 10px;
 }
